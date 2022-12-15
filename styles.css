@@ -1,0 +1,75 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 25px;
+    background:black;
+}
+
+.container{
+    height: 600px;
+    width: 600px;
+    background-image: url(drink.jpg);
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+    justify-content: center;
+    padding: 10px;
+    margin: auto;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+#congrats-el{
+    border: 2px solid black;
+    border-radius: 10px;
+    position: absolute;
+    top: 20%;
+    margin: 20px;
+}
+#goal-el{
+    border: 2px solid black;
+    border-radius: 10px;
+    position: absolute;
+    width: 400px;
+    text-align: left;
+    top: 45%;
+    left: 16%;
+    padding: 10px;
+}
+
+
+#achieve-el{
+    border: 2px solid black;
+    border-radius: 10px;
+    position: absolute;
+    width: 400px;
+    text-align: left;
+    top: 60%;
+    left: 16%;
+    padding: 10px;
+}
+
+#add-btn{
+    padding: 10px;
+    border: 3px solid green;
+    width: 200px;
+    position: absolute;
+    top: 90%;
+    right: 50%;
+    border-radius: 10px;
+    background: none;
+}
+
+#subtract-btn{
+    padding: 10px;
+    border: 3px solid red;
+    width: 200px;
+    position: absolute;
+    top: 90%;
+    right: 16%;
+    border-radius: 10px;
+    background: none;
+}
